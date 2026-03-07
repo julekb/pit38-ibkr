@@ -1,0 +1,8 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pit38-ibkr:latest
+    volumes:
+      - ./:/app:delegated
