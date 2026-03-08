@@ -1,0 +1,8 @@
+class ReportExtractionError(Exception):
+    ...
+
+
+class ReportExtractionValidationError(ReportExtractionError):
+    ...
+
+
