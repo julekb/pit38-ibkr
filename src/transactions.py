@@ -1,6 +1,8 @@
-from src.core import Currency, Transaction
+import datetime as dt
 
 from strictly_typed_pandas import DataSet
+
+from core import Currency, Transaction
 
 
 class ReportDFSchema:
@@ -9,12 +11,7 @@ class ReportDFSchema:
     transaction_type: Transaction
     size: float
     price: float
+    settlement_date: dt.date
 
 
-ReportDFFType = DataSet[ReportDFSchema]
-
-
-
-
-
-
+type ReportDFFType = DataSet[ReportDFSchema]

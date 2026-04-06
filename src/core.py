@@ -10,6 +10,3 @@ class Currency(StrEnum):
 class Transaction(StrEnum):
     BUY = "buy"
     SELL = "sell"
-
-
-

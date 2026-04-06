@@ -43,3 +43,7 @@ needed:
 ### 3. Convert to PLN
 
 ### 4. Calculate totals
+
+
+## Resources:
+Flex queries in IB: https://www.ibkrguides.com/reportingreference/reportguide/tradesfq.htm

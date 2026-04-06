@@ -11,4 +11,5 @@ venv/
 .DS_Store
 .idea/
 !data/example-2025.csv
-
+report.csv
+data/

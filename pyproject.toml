@@ -33,5 +33,6 @@ py_version = 313
 
 [tool.mypy]
 python_version = "3.13"
-files = ["src"]
 check_untyped_defs = true
+modules = ["src"]
+follow_untyped_imports = true

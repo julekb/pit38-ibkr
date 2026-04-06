@@ -1,6 +1,6 @@
 from datetime import date
 
-from src.core import Currency
+from core import Currency
 
 
 class NBPClient:
